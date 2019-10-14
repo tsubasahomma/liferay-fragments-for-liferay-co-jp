@@ -6,7 +6,10 @@ This project has been created with [generator-liferay-fragments][1]. You can rea
 how to manage this project in the [generator documentation][2].
 
 # Requirements
-Same as [`generator-liferay-fragments`'s requirements](https://github.com/liferay/generator-liferay-fragments/blob/master/README.md#requirements).
+Please refer to [here](https://github.com/liferay/generator-liferay-fragments/blob/master/README.md#requirements).
+
+# Usage
+Please refer to [here](https://github.com/liferay/generator-liferay-fragments/blob/master/README.md#usage).
 
 [1]: https://www.npmjs.com/package/generator-liferay-fragments
 [2]: https://www.npmjs.com/package/generator-liferay-fragments#usage
