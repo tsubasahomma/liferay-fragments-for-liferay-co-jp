@@ -1,0 +1,59 @@
+[#assign
+themeDisplay = themeDisplay
+icons_svg = themeDisplay.getPathThemeImages() + '/clay/icons.svg'
+/]
+<section class="highlighted-features bg-white">
+  <div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-md-12 col-lg-9">
+        [#if configuration.showHeading == true]
+        <div class="row">
+          <div class="col">
+            <h1 class="text-center mb-4">
+              <lfr-editable id="highlighted-features-level-1-heading" type="text">
+                見出１しテキスト
+              </lfr-editable>
+            </h1>
+          </div>
+        </div>
+        [/#if]
+        <div class="container shadow-sm">
+          <div class="row px-3 py-5 px-md-3 py-md-5 p-lg-5 bg-light flex-column align-items-center flex-md-row">
+            <div class="col">
+              <h2 class="mb-3">
+                <svg class="lexicon-icon display-4">
+                  <use href="${icons_svg}#${configuration.clayIcon}" />
+                </svg>
+                <lfr-editable id="highlighted-features-level-2-heading" type="text" class="d-inline-block">
+                  見出し２テキスト
+                </lfr-editable>
+              </h2>
+              <p class="mb-md-0">
+                <lfr-editable id="highlighted-features-level-2-intro" type="text">
+                  説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文
+                </lfr-editable>
+              </p>
+            </div>
+            <div class="col">
+              <lfr-editable id="highlighted-features-screenshot" type="image">
+                <img class="screenshot shadow-sm" src="https://via.placeholder.com/1366x768?text=Screenshot">
+              </lfr-editable>
+            </div>
+          </div>
+          <div class="row px-3 px-md-5 pt-5">
+            <lfr-editable id="highlighted-features-content" type="html">
+              <div class="col pb-5">
+                <h3 class="pb-2 mb-3 text-secondary">見出し</h3>
+                <p class="text-secondary mb-0">
+                  本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文
+                </p>
+              </div>
+            </lfr-editable>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+</div>

@@ -1,0 +1,33 @@
+.fragment_42256 {
+  counter-reset: number 0;
+}
+
+.fragment_42256 img {
+  width: 100%;
+}
+
+.fragment_42256 .h3::before {
+  background-color: #50657d;
+  border-radius: 100%;
+  color: #fff;
+  content: counter(number);
+  counter-increment: number 1;
+  display: block;
+  font-weight: normal;
+  height: 3rem;
+  line-height: 3rem;
+  margin: 0 auto 1.5rem;
+  width: 3rem;
+}
+
+@media (min-width: 768px) {
+  .fragment_42256 img {
+    width: 80%;
+  }
+}
+
+@media (min-width: 992px) {
+  .fragment_42256 img {
+    width: 60%;
+  }
+}

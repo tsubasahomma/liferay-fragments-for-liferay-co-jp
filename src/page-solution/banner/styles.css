@@ -1,0 +1,17 @@
+.fragment_43851 .product-logo {
+  max-width: 268px;
+  width: 80%;
+}
+
+.fragment_43851 .product-screenshot {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .fragment_43851 .product-logo {
+    max-width: none;
+    -webkit-transform: translateX(-14%);
+    transform: translateX(-14%);
+    width: 90%;
+  }
+}

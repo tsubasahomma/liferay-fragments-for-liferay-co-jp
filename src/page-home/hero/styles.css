@@ -1,0 +1,136 @@
+@-webkit-keyframes heroBackground {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: 100vw;
+  }
+}
+
+@keyframes heroBackground {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: 100vw;
+  }
+}
+
+.fragment_39260 {
+  background: url('data:image/svg+xml;charset=utf8,%3Csvg%20width%3D%221440%22%20height%3D%22639%22%20viewBox%3D%220%200%201440%20639%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%20%3Cpath%20d%3D%22M629%2015.43C389.862%20-28.1755%20229%2030.4165%200%2070.3819V596.576C843%20718.132%20843%20533.298%201440%20596.576V70.382C1101%20118.671%20902.38%2065.2792%20629%2015.43Z%22%20fill%3D%22%23134194%22%2F%3E%20%3C%2Fsvg%3E') repeat-x 0 bottom;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+@media (max-width: 992px) {
+  .fragment_39260 {
+    background-color: #134194;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .fragment_39260 {
+    -webkit-animation: heroBackground 100s infinite linear;
+    animation: heroBackground 100s infinite linear;
+  }
+}
+
+.fragment_39260 .fragment_39260__slider-wrapper::after {
+  content: '';
+  display: block;
+  padding-top: 50%;
+}
+
+.fragment_39260 li img {
+  width: 72.9%;
+  margin-left: 13.8%;
+  margin-top: 5.5%;
+}
+
+@-webkit-keyframes heroSliderFadeInOut {
+  0% {
+    opacity: 1;
+  }
+
+  17% {
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 0;
+  }
+
+  50% {
+    z-index: -1;
+  }
+
+  80% {
+    z-index: -1;
+  }
+
+  92% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes heroSliderFadeInOut {
+  0% {
+    opacity: 1;
+  }
+
+  17% {
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 0;
+  }
+
+  50% {
+    z-index: -1;
+  }
+
+  80% {
+    z-index: -1;
+  }
+
+  92% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.fragment_39260__slider-list li {
+  -webkit-animation: heroSliderFadeInOut 16s infinite ease-in-out;
+  animation: heroSliderFadeInOut 16s infinite ease-in-out;
+}
+
+.fragment_39260__slider-list li:nth-of-type(1) {
+  -webkit-animation-delay: 12s;
+  animation-delay: 12s;
+}
+
+.fragment_39260__slider-list li:nth-of-type(2) {
+  -webkit-animation-delay: 8s;
+  animation-delay: 8s;
+}
+
+.fragment_39260__slider-list li:nth-of-type(3) {
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+.fragment_39260__slider-list li:nth-of-type(4) {
+  -webkit-animation-delay: 0;
+  animation-delay: 0;
+}

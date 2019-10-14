@@ -1,0 +1,8 @@
+{
+  "type": 0,
+  "name": "選ばれる理由",
+  "cssPath": "styles.css",
+  "htmlPath": "index.html",
+  "jsPath": "main.js",
+  "configurationPath": "configuration.json"
+}
