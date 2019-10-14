@@ -1,18 +1,15 @@
 {
-  "name": "liferay-japan-k-k",
-  "description": "Liferay Fragments project",
+  "name": "liferay-fragments-for-liferay-co-jp",
+  "description": "This package is for building/managing Liferay Fragments which are used in liferay.co.jp.",
   "version": "1.0.0",
-
   "engines": {
     "node": ">= 8.0.0",
     "npm": ">= 6.0.0"
   },
-
   "keywords": [
     "liferay",
     "liferay-fragments"
   ],
-
   "scripts": {
     "add-collection": "yo liferay-fragments:collection",
     "add-fragment": "yo liferay-fragments:fragment",
