@@ -1,5 +1,5 @@
 {
-  "type": 0,
+  "type": "component",
   "name": "ロゴ一覧",
   "cssPath": "styles.css",
   "htmlPath": "index.html",
