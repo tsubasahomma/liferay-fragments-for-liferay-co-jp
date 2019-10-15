@@ -1,5 +1,5 @@
 {
-  "type": 0,
+  "type": "section",
   "name": "バナー",
   "cssPath": "styles.css",
   "htmlPath": "index.html",

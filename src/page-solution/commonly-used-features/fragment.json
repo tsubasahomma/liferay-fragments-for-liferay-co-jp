@@ -1,5 +1,5 @@
 {
-  "type": 0,
+  "type": "component",
   "name": "特徴（カード）",
   "cssPath": "styles.css",
   "htmlPath": "index.html",

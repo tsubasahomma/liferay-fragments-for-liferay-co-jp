@@ -2,15 +2,16 @@
   counter-reset: highlightCounter;
 }
 
-.fragment_45741 .card::before {
+.fragment_45741 .highlight-heading::before {
   background-color: #6c757d;
   border-radius: 100%;
   color: #fff;
   content: counter(highlightCounter);
   counter-increment: highlightCounter;
-  display: inline-block;
+  display: block;
   height: 3rem;
   line-height: 3rem;
   margin-bottom: 1rem;
   width: 3rem;
+  margin: 0 auto 1rem;
 }

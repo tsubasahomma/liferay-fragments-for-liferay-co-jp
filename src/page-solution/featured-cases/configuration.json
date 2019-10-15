@@ -1,829 +1,829 @@
 {
-  "fieldSets": [{
-    "fields": [{
-      "name": "clayIcon",
-      "label": "Clay Icon",
-      "type": "select",
-      "dataType": "string",
-      "typeOptions": {
-        "validValues": [{
-            "value": "add-cell"
-          },
-          {
-            "value": "add-column"
-          },
-          {
-            "value": "add-role"
-          },
-          {
-            "value": "add-row"
-          },
-          {
-            "value": "adjust"
-          },
-          {
-            "value": "align-center"
-          },
-          {
-            "value": "align-image-center"
-          },
-          {
-            "value": "align-image-left"
-          },
-          {
-            "value": "align-image-right"
-          },
-          {
-            "value": "align-justify"
-          },
-          {
-            "value": "align-left"
-          },
-          {
-            "value": "align-right"
-          },
-          {
-            "value": "analytics"
-          },
-          {
-            "value": "angle-down"
-          },
-          {
-            "value": "angle-left"
-          },
-          {
-            "value": "angle-right"
-          },
-          {
-            "value": "angle-up"
-          },
-          {
-            "value": "announcement"
-          },
-          {
-            "value": "anonymize"
-          },
-          {
-            "value": "api-lock"
-          },
-          {
-            "value": "api-web"
-          },
-          {
-            "value": "archive"
-          },
-          {
-            "value": "arrow-up-full"
-          },
-          {
-            "value": "asterisk"
-          },
-          {
-            "value": "audio"
-          },
-          {
-            "value": "autosize"
-          },
-          {
-            "value": "bars"
-          },
-          {
-            "value": "bell-off"
-          },
-          {
-            "value": "bell-on"
-          },
-          {
-            "value": "blogs"
-          },
-          {
-            "value": "bold"
-          },
-          {
-            "value": "bolt"
-          },
-          {
-            "value": "bookmarks"
-          },
-          {
-            "value": "box-container"
-          },
-          {
-            "value": "breadcrumb"
-          },
-          {
-            "value": "calendar"
-          },
-          {
-            "value": "camera"
-          },
-          {
-            "value": "cards-full"
-          },
-          {
-            "value": "cards"
-          },
-          {
-            "value": "cards2"
-          },
-          {
-            "value": "caret-bottom-l"
-          },
-          {
-            "value": "caret-bottom"
-          },
-          {
-            "value": "caret-double-l"
-          },
-          {
-            "value": "caret-double"
-          },
-          {
-            "value": "caret-left-l"
-          },
-          {
-            "value": "caret-left"
-          },
-          {
-            "value": "caret-right-l"
-          },
-          {
-            "value": "caret-right"
-          },
-          {
-            "value": "caret-top-l"
-          },
-          {
-            "value": "caret-top"
-          },
-          {
-            "value": "categories"
-          },
-          {
-            "value": "chain-broken"
-          },
-          {
-            "value": "change-list"
-          },
-          {
-            "value": "change"
-          },
-          {
-            "value": "check-circle-full"
-          },
-          {
-            "value": "check-circle"
-          },
-          {
-            "value": "check-square"
-          },
-          {
-            "value": "check"
-          },
-          {
-            "value": "chip"
-          },
-          {
-            "value": "code"
-          },
-          {
-            "value": "cog"
-          },
-          {
-            "value": "color-picker"
-          },
-          {
-            "value": "columns"
-          },
-          {
-            "value": "comments"
-          },
-          {
-            "value": "community"
-          },
-          {
-            "value": "compress"
-          },
-          {
-            "value": "control-panel"
-          },
-          {
-            "value": "custom-field"
-          },
-          {
-            "value": "custom-size"
-          },
-          {
-            "value": "cut"
-          },
-          {
-            "value": "date"
-          },
-          {
-            "value": "decimal"
-          },
-          {
-            "value": "desktop"
-          },
-          {
-            "value": "devices"
-          },
-          {
-            "value": "diagram"
-          },
-          {
-            "value": "diary"
-          },
-          {
-            "value": "document-code"
-          },
-          {
-            "value": "document-compressed"
-          },
-          {
-            "value": "document-default"
-          },
-          {
-            "value": "document-image"
-          },
-          {
-            "value": "document-multimedia"
-          },
-          {
-            "value": "document-pdf"
-          },
-          {
-            "value": "document-presentation"
-          },
-          {
-            "value": "document-table"
-          },
-          {
-            "value": "document-text"
-          },
-          {
-            "value": "document-vector"
-          },
-          {
-            "value": "document"
-          },
-          {
-            "value": "documents-and-media"
-          },
-          {
-            "value": "download"
-          },
-          {
-            "value": "drag"
-          },
-          {
-            "value": "drop"
-          },
-          {
-            "value": "dynamic-data-list"
-          },
-          {
-            "value": "dynamic-data-mapping"
-          },
-          {
-            "value": "edit-layout"
-          },
-          {
-            "value": "effects"
-          },
-          {
-            "value": "ellipsis-h"
-          },
-          {
-            "value": "ellipsis-v"
-          },
-          {
-            "value": "embed"
-          },
-          {
-            "value": "envelope-closed"
-          },
-          {
-            "value": "envelope-open"
-          },
-          {
-            "value": "environment-connected"
-          },
-          {
-            "value": "environment-disconnected"
-          },
-          {
-            "value": "environment"
-          },
-          {
-            "value": "exclamation-circle"
-          },
-          {
-            "value": "exclamation-full"
-          },
-          {
-            "value": "expand"
-          },
-          {
-            "value": "file-script"
-          },
-          {
-            "value": "file-template"
-          },
-          {
-            "value": "file-xsl"
-          },
-          {
-            "value": "filter"
-          },
-          {
-            "value": "flag-empty"
-          },
-          {
-            "value": "flag-full"
-          },
-          {
-            "value": "folder"
-          },
-          {
-            "value": "format"
-          },
-          {
-            "value": "forms"
-          },
-          {
-            "value": "full-size"
-          },
-          {
-            "value": "geolocation"
-          },
-          {
-            "value": "globe"
-          },
-          {
-            "value": "grid"
-          },
-          {
-            "value": "h1"
-          },
-          {
-            "value": "h2"
-          },
-          {
-            "value": "hashtag"
-          },
-          {
-            "value": "heart"
-          },
-          {
-            "value": "hidden"
-          },
-          {
-            "value": "home"
-          },
-          {
-            "value": "horizontal-scroll"
-          },
-          {
-            "value": "hr"
-          },
-          {
-            "value": "import-export"
-          },
-          {
-            "value": "indent-less"
-          },
-          {
-            "value": "indent-more"
-          },
-          {
-            "value": "info-book"
-          },
-          {
-            "value": "info-circle-open"
-          },
-          {
-            "value": "info-circle"
-          },
-          {
-            "value": "info-panel-closed"
-          },
-          {
-            "value": "info-panel-open"
-          },
-          {
-            "value": "information-live"
-          },
-          {
-            "value": "integer"
-          },
-          {
-            "value": "italic"
-          },
-          {
-            "value": "link"
-          },
-          {
-            "value": "list-ol"
-          },
-          {
-            "value": "list-ul"
-          },
-          {
-            "value": "list"
-          },
-          {
-            "value": "live"
-          },
-          {
-            "value": "lock-dots"
-          },
-          {
-            "value": "lock"
-          },
-          {
-            "value": "logout"
-          },
-          {
-            "value": "magic"
-          },
-          {
-            "value": "mark-as-answer"
-          },
-          {
-            "value": "mark-as-question"
-          },
-          {
-            "value": "merge"
-          },
-          {
-            "value": "message-boards"
-          },
-          {
-            "value": "message"
-          },
-          {
-            "value": "mobile-device-rules"
-          },
-          {
-            "value": "mobile-landscape"
-          },
-          {
-            "value": "mobile-portrait"
-          },
-          {
-            "value": "moon"
-          },
-          {
-            "value": "move-folder"
-          },
-          {
-            "value": "move"
-          },
-          {
-            "value": "myspace"
-          },
-          {
-            "value": "number"
-          },
-          {
-            "value": "oauth"
-          },
-          {
-            "value": "open-id"
-          },
-          {
-            "value": "order-arrow-down"
-          },
-          {
-            "value": "order-arrow-up"
-          },
-          {
-            "value": "order-arrow"
-          },
-          {
-            "value": "organizations"
-          },
-          {
-            "value": "page-template"
-          },
-          {
-            "value": "page"
-          },
-          {
-            "value": "pages-tree"
-          },
-          {
-            "value": "paperclip"
-          },
-          {
-            "value": "paragraph"
-          },
-          {
-            "value": "password-policies"
-          },
-          {
-            "value": "paste"
-          },
-          {
-            "value": "pause"
-          },
-          {
-            "value": "pencil"
-          },
-          {
-            "value": "phone"
-          },
-          {
-            "value": "picture"
-          },
-          {
-            "value": "pin"
-          },
-          {
-            "value": "play"
-          },
-          {
-            "value": "plug"
-          },
-          {
-            "value": "plus-squares"
-          },
-          {
-            "value": "plus"
-          },
-          {
-            "value": "polls"
-          },
-          {
-            "value": "print"
-          },
-          {
-            "value": "product-menu-closed"
-          },
-          {
-            "value": "product-menu-open"
-          },
-          {
-            "value": "product-menu"
-          },
-          {
-            "value": "propagation"
-          },
-          {
-            "value": "question-circle-full"
-          },
-          {
-            "value": "question-circle"
-          },
-          {
-            "value": "quote-left"
-          },
-          {
-            "value": "quote-right"
-          },
-          {
-            "value": "radio-button"
-          },
-          {
-            "value": "redo"
-          },
-          {
-            "value": "reload"
-          },
-          {
-            "value": "remove-role"
-          },
-          {
-            "value": "remove-style"
-          },
-          {
-            "value": "reply"
-          },
-          {
-            "value": "repository"
-          },
-          {
-            "value": "restore"
-          },
-          {
-            "value": "rss-full"
-          },
-          {
-            "value": "rss"
-          },
-          {
-            "value": "rules"
-          },
-          {
-            "value": "search"
-          },
-          {
-            "value": "select-from-list"
-          },
-          {
-            "value": "select"
-          },
-          {
-            "value": "separator"
-          },
-          {
-            "value": "share-alt"
-          },
-          {
-            "value": "share"
-          },
-          {
-            "value": "sheets"
-          },
-          {
-            "value": "shopping-cart"
-          },
-          {
-            "value": "shortcut"
-          },
-          {
-            "value": "simple-circle"
-          },
-          {
-            "value": "simulation-menu-closed"
-          },
-          {
-            "value": "simulation-menu-open"
-          },
-          {
-            "value": "simulation-menu"
-          },
-          {
-            "value": "site-template"
-          },
-          {
-            "value": "sites"
-          },
-          {
-            "value": "social-facebook"
-          },
-          {
-            "value": "social-linkedin"
-          },
-          {
-            "value": "spacer"
-          },
-          {
-            "value": "square-hole"
-          },
-          {
-            "value": "staging"
-          },
-          {
-            "value": "star-half"
-          },
-          {
-            "value": "star-o"
-          },
-          {
-            "value": "star"
-          },
-          {
-            "value": "sticky"
-          },
-          {
-            "value": "strikethrough"
-          },
-          {
-            "value": "subscript"
-          },
-          {
-            "value": "suitcase"
-          },
-          {
-            "value": "sun"
-          },
-          {
-            "value": "superscript"
-          },
-          {
-            "value": "table"
-          },
-          {
-            "value": "table2"
-          },
-          {
-            "value": "tablet-landscape"
-          },
-          {
-            "value": "tablet-portrait"
-          },
-          {
-            "value": "tag"
-          },
-          {
-            "value": "text-editor"
-          },
-          {
-            "value": "text"
-          },
-          {
-            "value": "textbox"
-          },
-          {
-            "value": "third-party"
-          },
-          {
-            "value": "thumbs-down"
-          },
-          {
-            "value": "thumbs-up-arrow"
-          },
-          {
-            "value": "thumbs-up"
-          },
-          {
-            "value": "time"
-          },
-          {
-            "value": "times-circle"
-          },
-          {
-            "value": "times"
-          },
-          {
-            "value": "transform"
-          },
-          {
-            "value": "trash"
-          },
-          {
-            "value": "twitter"
-          },
-          {
-            "value": "underline"
-          },
-          {
-            "value": "undo"
-          },
-          {
-            "value": "unlock"
-          },
-          {
-            "value": "unpin"
-          },
-          {
-            "value": "upload-multiple"
-          },
-          {
-            "value": "upload"
-          },
-          {
-            "value": "urgent"
-          },
-          {
-            "value": "user-plus"
-          },
-          {
-            "value": "user"
-          },
-          {
-            "value": "users"
-          },
-          {
-            "value": "vertical-scroll"
-          },
-          {
-            "value": "video"
-          },
-          {
-            "value": "view"
-          },
-          {
-            "value": "vocabulary"
-          },
-          {
-            "value": "warning-full"
-          },
-          {
-            "value": "warning"
-          },
-          {
-            "value": "web-content"
-          },
-          {
-            "value": "wiki-page"
-          },
-          {
-            "value": "wiki"
-          },
-          {
-            "value": "workflow"
-          }
-        ]
-      },
-      "defaultValue": "users"
-    }, {
-      "name": "showHeading",
-      "label": "Show Header",
-      "type": "checkbox",
-      "defaultValue": false
-    }]
-  }]
+  "fieldSets": [
+    {
+      "fields": [
+        {
+          "name": "clayIcon",
+          "label": "Clay Icon",
+          "type": "select",
+          "dataType": "string",
+          "typeOptions": {
+            "validValues": [
+              {
+                "value": "add-cell"
+              },
+              {
+                "value": "add-column"
+              },
+              {
+                "value": "add-role"
+              },
+              {
+                "value": "add-row"
+              },
+              {
+                "value": "adjust"
+              },
+              {
+                "value": "align-center"
+              },
+              {
+                "value": "align-image-center"
+              },
+              {
+                "value": "align-image-left"
+              },
+              {
+                "value": "align-image-right"
+              },
+              {
+                "value": "align-justify"
+              },
+              {
+                "value": "align-left"
+              },
+              {
+                "value": "align-right"
+              },
+              {
+                "value": "analytics"
+              },
+              {
+                "value": "angle-down"
+              },
+              {
+                "value": "angle-left"
+              },
+              {
+                "value": "angle-right"
+              },
+              {
+                "value": "angle-up"
+              },
+              {
+                "value": "announcement"
+              },
+              {
+                "value": "anonymize"
+              },
+              {
+                "value": "api-lock"
+              },
+              {
+                "value": "api-web"
+              },
+              {
+                "value": "archive"
+              },
+              {
+                "value": "arrow-up-full"
+              },
+              {
+                "value": "asterisk"
+              },
+              {
+                "value": "audio"
+              },
+              {
+                "value": "autosize"
+              },
+              {
+                "value": "bars"
+              },
+              {
+                "value": "bell-off"
+              },
+              {
+                "value": "bell-on"
+              },
+              {
+                "value": "blogs"
+              },
+              {
+                "value": "bold"
+              },
+              {
+                "value": "bolt"
+              },
+              {
+                "value": "bookmarks"
+              },
+              {
+                "value": "box-container"
+              },
+              {
+                "value": "breadcrumb"
+              },
+              {
+                "value": "calendar"
+              },
+              {
+                "value": "camera"
+              },
+              {
+                "value": "cards-full"
+              },
+              {
+                "value": "cards"
+              },
+              {
+                "value": "cards2"
+              },
+              {
+                "value": "caret-bottom-l"
+              },
+              {
+                "value": "caret-bottom"
+              },
+              {
+                "value": "caret-double-l"
+              },
+              {
+                "value": "caret-double"
+              },
+              {
+                "value": "caret-left-l"
+              },
+              {
+                "value": "caret-left"
+              },
+              {
+                "value": "caret-right-l"
+              },
+              {
+                "value": "caret-right"
+              },
+              {
+                "value": "caret-top-l"
+              },
+              {
+                "value": "caret-top"
+              },
+              {
+                "value": "categories"
+              },
+              {
+                "value": "chain-broken"
+              },
+              {
+                "value": "change-list"
+              },
+              {
+                "value": "change"
+              },
+              {
+                "value": "check-circle-full"
+              },
+              {
+                "value": "check-circle"
+              },
+              {
+                "value": "check-square"
+              },
+              {
+                "value": "check"
+              },
+              {
+                "value": "chip"
+              },
+              {
+                "value": "code"
+              },
+              {
+                "value": "cog"
+              },
+              {
+                "value": "color-picker"
+              },
+              {
+                "value": "columns"
+              },
+              {
+                "value": "comments"
+              },
+              {
+                "value": "community"
+              },
+              {
+                "value": "compress"
+              },
+              {
+                "value": "control-panel"
+              },
+              {
+                "value": "custom-field"
+              },
+              {
+                "value": "custom-size"
+              },
+              {
+                "value": "cut"
+              },
+              {
+                "value": "date"
+              },
+              {
+                "value": "decimal"
+              },
+              {
+                "value": "desktop"
+              },
+              {
+                "value": "devices"
+              },
+              {
+                "value": "diagram"
+              },
+              {
+                "value": "diary"
+              },
+              {
+                "value": "document-code"
+              },
+              {
+                "value": "document-compressed"
+              },
+              {
+                "value": "document-default"
+              },
+              {
+                "value": "document-image"
+              },
+              {
+                "value": "document-multimedia"
+              },
+              {
+                "value": "document-pdf"
+              },
+              {
+                "value": "document-presentation"
+              },
+              {
+                "value": "document-table"
+              },
+              {
+                "value": "document-text"
+              },
+              {
+                "value": "document-vector"
+              },
+              {
+                "value": "document"
+              },
+              {
+                "value": "documents-and-media"
+              },
+              {
+                "value": "download"
+              },
+              {
+                "value": "drag"
+              },
+              {
+                "value": "drop"
+              },
+              {
+                "value": "dynamic-data-list"
+              },
+              {
+                "value": "dynamic-data-mapping"
+              },
+              {
+                "value": "edit-layout"
+              },
+              {
+                "value": "effects"
+              },
+              {
+                "value": "ellipsis-h"
+              },
+              {
+                "value": "ellipsis-v"
+              },
+              {
+                "value": "embed"
+              },
+              {
+                "value": "envelope-closed"
+              },
+              {
+                "value": "envelope-open"
+              },
+              {
+                "value": "environment-connected"
+              },
+              {
+                "value": "environment-disconnected"
+              },
+              {
+                "value": "environment"
+              },
+              {
+                "value": "exclamation-circle"
+              },
+              {
+                "value": "exclamation-full"
+              },
+              {
+                "value": "expand"
+              },
+              {
+                "value": "file-script"
+              },
+              {
+                "value": "file-template"
+              },
+              {
+                "value": "file-xsl"
+              },
+              {
+                "value": "filter"
+              },
+              {
+                "value": "flag-empty"
+              },
+              {
+                "value": "flag-full"
+              },
+              {
+                "value": "folder"
+              },
+              {
+                "value": "format"
+              },
+              {
+                "value": "forms"
+              },
+              {
+                "value": "full-size"
+              },
+              {
+                "value": "geolocation"
+              },
+              {
+                "value": "globe"
+              },
+              {
+                "value": "grid"
+              },
+              {
+                "value": "h1"
+              },
+              {
+                "value": "h2"
+              },
+              {
+                "value": "hashtag"
+              },
+              {
+                "value": "heart"
+              },
+              {
+                "value": "hidden"
+              },
+              {
+                "value": "home"
+              },
+              {
+                "value": "horizontal-scroll"
+              },
+              {
+                "value": "hr"
+              },
+              {
+                "value": "import-export"
+              },
+              {
+                "value": "indent-less"
+              },
+              {
+                "value": "indent-more"
+              },
+              {
+                "value": "info-book"
+              },
+              {
+                "value": "info-circle-open"
+              },
+              {
+                "value": "info-circle"
+              },
+              {
+                "value": "info-panel-closed"
+              },
+              {
+                "value": "info-panel-open"
+              },
+              {
+                "value": "information-live"
+              },
+              {
+                "value": "integer"
+              },
+              {
+                "value": "italic"
+              },
+              {
+                "value": "link"
+              },
+              {
+                "value": "list-ol"
+              },
+              {
+                "value": "list-ul"
+              },
+              {
+                "value": "list"
+              },
+              {
+                "value": "live"
+              },
+              {
+                "value": "lock-dots"
+              },
+              {
+                "value": "lock"
+              },
+              {
+                "value": "logout"
+              },
+              {
+                "value": "magic"
+              },
+              {
+                "value": "mark-as-answer"
+              },
+              {
+                "value": "mark-as-question"
+              },
+              {
+                "value": "merge"
+              },
+              {
+                "value": "message-boards"
+              },
+              {
+                "value": "message"
+              },
+              {
+                "value": "mobile-device-rules"
+              },
+              {
+                "value": "mobile-landscape"
+              },
+              {
+                "value": "mobile-portrait"
+              },
+              {
+                "value": "moon"
+              },
+              {
+                "value": "move-folder"
+              },
+              {
+                "value": "move"
+              },
+              {
+                "value": "myspace"
+              },
+              {
+                "value": "number"
+              },
+              {
+                "value": "oauth"
+              },
+              {
+                "value": "open-id"
+              },
+              {
+                "value": "order-arrow-down"
+              },
+              {
+                "value": "order-arrow-up"
+              },
+              {
+                "value": "order-arrow"
+              },
+              {
+                "value": "organizations"
+              },
+              {
+                "value": "page-template"
+              },
+              {
+                "value": "page"
+              },
+              {
+                "value": "pages-tree"
+              },
+              {
+                "value": "paperclip"
+              },
+              {
+                "value": "paragraph"
+              },
+              {
+                "value": "password-policies"
+              },
+              {
+                "value": "paste"
+              },
+              {
+                "value": "pause"
+              },
+              {
+                "value": "pencil"
+              },
+              {
+                "value": "phone"
+              },
+              {
+                "value": "picture"
+              },
+              {
+                "value": "pin"
+              },
+              {
+                "value": "play"
+              },
+              {
+                "value": "plug"
+              },
+              {
+                "value": "plus-squares"
+              },
+              {
+                "value": "plus"
+              },
+              {
+                "value": "polls"
+              },
+              {
+                "value": "print"
+              },
+              {
+                "value": "product-menu-closed"
+              },
+              {
+                "value": "product-menu-open"
+              },
+              {
+                "value": "product-menu"
+              },
+              {
+                "value": "propagation"
+              },
+              {
+                "value": "question-circle-full"
+              },
+              {
+                "value": "question-circle"
+              },
+              {
+                "value": "quote-left"
+              },
+              {
+                "value": "quote-right"
+              },
+              {
+                "value": "radio-button"
+              },
+              {
+                "value": "redo"
+              },
+              {
+                "value": "reload"
+              },
+              {
+                "value": "remove-role"
+              },
+              {
+                "value": "remove-style"
+              },
+              {
+                "value": "reply"
+              },
+              {
+                "value": "repository"
+              },
+              {
+                "value": "restore"
+              },
+              {
+                "value": "rss-full"
+              },
+              {
+                "value": "rss"
+              },
+              {
+                "value": "rules"
+              },
+              {
+                "value": "search"
+              },
+              {
+                "value": "select-from-list"
+              },
+              {
+                "value": "select"
+              },
+              {
+                "value": "separator"
+              },
+              {
+                "value": "share-alt"
+              },
+              {
+                "value": "share"
+              },
+              {
+                "value": "sheets"
+              },
+              {
+                "value": "shopping-cart"
+              },
+              {
+                "value": "shortcut"
+              },
+              {
+                "value": "simple-circle"
+              },
+              {
+                "value": "simulation-menu-closed"
+              },
+              {
+                "value": "simulation-menu-open"
+              },
+              {
+                "value": "simulation-menu"
+              },
+              {
+                "value": "site-template"
+              },
+              {
+                "value": "sites"
+              },
+              {
+                "value": "social-facebook"
+              },
+              {
+                "value": "social-linkedin"
+              },
+              {
+                "value": "spacer"
+              },
+              {
+                "value": "square-hole"
+              },
+              {
+                "value": "staging"
+              },
+              {
+                "value": "star-half"
+              },
+              {
+                "value": "star-o"
+              },
+              {
+                "value": "star"
+              },
+              {
+                "value": "sticky"
+              },
+              {
+                "value": "strikethrough"
+              },
+              {
+                "value": "subscript"
+              },
+              {
+                "value": "suitcase"
+              },
+              {
+                "value": "sun"
+              },
+              {
+                "value": "superscript"
+              },
+              {
+                "value": "table"
+              },
+              {
+                "value": "table2"
+              },
+              {
+                "value": "tablet-landscape"
+              },
+              {
+                "value": "tablet-portrait"
+              },
+              {
+                "value": "tag"
+              },
+              {
+                "value": "text-editor"
+              },
+              {
+                "value": "text"
+              },
+              {
+                "value": "textbox"
+              },
+              {
+                "value": "third-party"
+              },
+              {
+                "value": "thumbs-down"
+              },
+              {
+                "value": "thumbs-up-arrow"
+              },
+              {
+                "value": "thumbs-up"
+              },
+              {
+                "value": "time"
+              },
+              {
+                "value": "times-circle"
+              },
+              {
+                "value": "times"
+              },
+              {
+                "value": "transform"
+              },
+              {
+                "value": "trash"
+              },
+              {
+                "value": "twitter"
+              },
+              {
+                "value": "underline"
+              },
+              {
+                "value": "undo"
+              },
+              {
+                "value": "unlock"
+              },
+              {
+                "value": "unpin"
+              },
+              {
+                "value": "upload-multiple"
+              },
+              {
+                "value": "upload"
+              },
+              {
+                "value": "urgent"
+              },
+              {
+                "value": "user-plus"
+              },
+              {
+                "value": "user"
+              },
+              {
+                "value": "users"
+              },
+              {
+                "value": "vertical-scroll"
+              },
+              {
+                "value": "video"
+              },
+              {
+                "value": "view"
+              },
+              {
+                "value": "vocabulary"
+              },
+              {
+                "value": "warning-full"
+              },
+              {
+                "value": "warning"
+              },
+              {
+                "value": "web-content"
+              },
+              {
+                "value": "wiki-page"
+              },
+              {
+                "value": "wiki"
+              },
+              {
+                "value": "workflow"
+              }
+            ]
+          },
+          "defaultValue": "users"
+        }
+      ]
+    }
+  ]
 }
