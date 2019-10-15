@@ -1,12 +1,12 @@
-.fragment_42256 {
+.reasons-to-select {
   counter-reset: number 0;
 }
 
-.fragment_42256 img {
+.reasons-to-select img {
   width: 100%;
 }
 
-.fragment_42256 .h3::before {
+.reasons-to-select .h3::before {
   background-color: #50657d;
   border-radius: 100%;
   color: #fff;
@@ -16,18 +16,18 @@
   font-weight: normal;
   height: 3rem;
   line-height: 3rem;
-  margin: 0 auto 1.5rem;
+  margin: 0 auto .875rem;
   width: 3rem;
 }
 
 @media (min-width: 768px) {
-  .fragment_42256 img {
+  .reasons-to-select img {
     width: 80%;
   }
 }
 
 @media (min-width: 992px) {
-  .fragment_42256 img {
+  .reasons-to-select img {
     width: 60%;
   }
 }

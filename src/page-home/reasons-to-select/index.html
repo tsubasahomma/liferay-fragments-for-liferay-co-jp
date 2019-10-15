@@ -1,38 +1,25 @@
-<div class="fragment_42256 bg-white">
-  <div class="container py-5">
-    <div class="row justify-content-center text-center flex-column flex-md-row px-3 px-sm-0">
-      <div class="col-md-5 col-xl-4 p-3 p-lg-5 bg-light card mx-md-3 mx-lg-3">
-        <lfr-editable id="fragment_42256-section-1-heading" type="html">
-          <h2 class="h3">見出しテキスト</h2>
+<div class="reasons-to-select">
+  <div class="row mb-4">
+    <div class="col text-center">
+      <lfr-editable id="reasons-to-select-figure" type="image">
+        <img src="https://via.placeholder.com/1001x460/?text=Screenshot">
+      </lfr-editable>
+    </div>
+  </div>
+  <div class="row justify-content-center flex-column flex-md-row px-3 px-sm-0">
+    [#list 1..4 as i]
+    <div class="col-md-5 col-xl-4 p-3 p-lg-5 bg-light card mx-md-3 mx-lg-3">
+      <h2 class="h3 text-center mb-3">
+        <lfr-editable id="reasons-to-select-section-${i}-heading" type="text">
+          見出しテキスト
         </lfr-editable>
-        <lfr-editable id="fragment_42256-section-1-content" type="rich-text">
-          <p>ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</p>
-        </lfr-editable>
-      </div>
-      <div class="col-md-5 col-xl-4 p-3 p-lg-5 bg-light card mx-md-3 mx-lg-3">
-        <lfr-editable id="fragment_42256-section-2-heading" type="html">
-          <h2 class="h3">見出しテキスト</h2>
-        </lfr-editable>
-        <lfr-editable id="fragment_42256-section-2-content" type="rich-text">
-          <p>ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</p>
-        </lfr-editable>
-      </div>
-      <div class="col-md-5 col-xl-4 p-3 p-lg-5 bg-light card mx-md-3 mx-lg-3">
-        <lfr-editable id="fragment_42256-section-3-heading" type="html">
-          <h2 class="h3">見出しテキスト</h2>
-        </lfr-editable>
-        <lfr-editable id="fragment_42256-section-3-content" type="rich-text">
-          <p>ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</p>
-        </lfr-editable>
-      </div>
-      <div class="col-md-5 col-xl-4 p-3 p-lg-5 bg-light card mx-md-3 mx-lg-3">
-        <lfr-editable id="fragment_42256-section-4-heading" type="html">
-          <h2 class="h3">見出しテキスト</h2>
-        </lfr-editable>
-        <lfr-editable id="fragment_42256-section-4-content" type="rich-text">
-          <p>ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</p>
+      </h2>
+      <div class="text-body">
+        <lfr-editable id="reasons-to-select-section-${i}-content" type="rich-text">
+          ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト
         </lfr-editable>
       </div>
     </div>
+    [/#list]
   </div>
 </div>
