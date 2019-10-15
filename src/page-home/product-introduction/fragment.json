@@ -1,6 +1,6 @@
 {
   "type": "section",
-  "name": "製品紹介バナー",
+  "name": "Product Introduction",
   "cssPath": "styles.css",
   "htmlPath": "index.html",
   "jsPath": "main.js",

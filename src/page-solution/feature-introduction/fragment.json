@@ -3,6 +3,6 @@
   "configurationPath": "configuration.json",
   "htmlPath": "index.html",
   "jsPath": "main.js",
-  "name": "主要機能",
-  "type": "section"
+  "name": "Feature Introduction",
+  "type": "component"
 }

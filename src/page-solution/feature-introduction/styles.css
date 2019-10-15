@@ -1,0 +1,23 @@
+.feature-introduction__heading::before,
+.feature-introduction__heading::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  height: 3px;
+}
+
+.feature-introduction__heading::before {
+  background-color: var(--info);
+  width: 15%;
+}
+
+.feature-introduction__heading::after {
+  background-color: var(--light);
+  width: 85%;
+  right: 0;
+}
+
+.feature-introduction__content div>* {
+  margin-bottom: 0;
+}
