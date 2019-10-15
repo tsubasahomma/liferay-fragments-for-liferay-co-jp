@@ -1,6 +1,6 @@
 {
   "type": "section",
-  "name": "バナー",
+  "name": "Banner",
   "cssPath": "styles.css",
   "htmlPath": "index.html",
   "jsPath": "main.js",

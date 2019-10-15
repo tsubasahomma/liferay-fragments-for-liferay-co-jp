@@ -1,6 +1,6 @@
 {
   "type": "component",
-  "name": "選ばれる理由",
+  "name": "Reasons to Select",
   "cssPath": "styles.css",
   "htmlPath": "index.html",
   "jsPath": "main.js",
