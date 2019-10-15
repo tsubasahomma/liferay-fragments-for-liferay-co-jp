@@ -1,8 +1,8 @@
-.fragment_45741 {
+.top-three-highlights {
   counter-reset: highlightCounter;
 }
 
-.fragment_45741 .highlight-heading::before {
+.top-three-highlights__heading::before {
   background-color: #6c757d;
   border-radius: 100%;
   color: #fff;

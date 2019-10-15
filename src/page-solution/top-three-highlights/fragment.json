@@ -1,6 +1,6 @@
 {
   "type": "component",
-  "name": "特徴（カード）",
+  "name": "Top 3 Highlights",
   "cssPath": "styles.css",
   "htmlPath": "index.html",
   "jsPath": "main.js",
