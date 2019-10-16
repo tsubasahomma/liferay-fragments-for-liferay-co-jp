@@ -1,3 +1,7 @@
 .solution-overview {
   color: inherit;
 }
+
+.solution-overview .often-used-features {
+  background-color: #dedede;
+}
