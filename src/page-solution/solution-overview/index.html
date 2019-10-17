@@ -1,40 +1,62 @@
-[#assign clay_icon_svg = themeDisplay.getPathThemeImages() + '/clay/icons.svg']
-<div class="solution-overview row flex-column flex-md-row justify-content-center">
-  <div class="col-xl-10 bg-light p-5">
+[#assign clay_icons_svg = themeDisplay.getPathThemeImages() + '/clay/icons.svg']
+<div class="solution-overview row">
+  <div class="col-lg-10 mx-auto bg-white py-5 px-4 p-md-5 shadow">
     <div class="row flex-column flex-md-row">
       <div class="col">
-        <div class="d-flex align-items-center mb-4">
-          <svg class="lexicon-icon display-4 text-dark mr-3">
-            <use href="${clay_icon_svg}#${configuration.clayIcon}" />
+        <div class="d-flex text-center text-md-left flex-column flex-md-row align-items-center mb-4">
+          <svg class="lexicon-icon mt-0 mb-3 mb-md-0 display-4 text-secondary mr-md-3">
+            <use href="${clay_icons_svg}#${configuration.clayIcon}" />
           </svg>
           <h2 class="mb-0">
-            イントラネット
-            <span class="d-block h6 font-weight-normal mt-1 mb-0">intranet - digital workplace</span>
+            <lfr-editable id="solution-overview__heading" type="text">
+              ダミーテキスト
+            </lfr-editable>
+            <span class="d-block h6 mb-0 font-weight-normal">
+              <lfr-editable id="solution-overview__sub-heading" type="text">
+                ダミーテキスト
+              </lfr-editable>
+            </span>
           </h2>
         </div>
-        <img src="https://via.placeholder.com/4614x2466/?text=Image" class="mb-4 mb-md-0 w-100">
+        <lfr-editable id="solution-overview__figure" type="image">
+          <img class="w-100 mb-4 mb-md-0" src="https://via.placeholder.com/460x246/?text=Image">
+        </lfr-editable>
       </div>
       <div class="col">
-        <p class="mb-4">Liferay
-          DXPで社内に分散する様々なデータやツールを、単一のプラットフォームに集約させ、従業員一人ひとりのニーズに合わせた情報を表示しましょう。モバイル対応はもちろん、業務を効率化する次世代デジタルワークプレイスを構築できます。
+        <p class="text-body">
+          <lfr-editable id="solution-overview__summary" type="text">
+            ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト
+          </lfr-editable>
         </p>
-        <div class="often-used-features p-3">
-          <div class="h5">このソリューションでよく使われるポートレット</div>
-          <span class="badge badge-info">
-            <span class="badge-item badge-item-expand p">テキスト</span>
-          </span>
-          <span class="badge badge-info">
-            <span class="badge-item badge-item-expand p">テキスト</span>
-          </span>
-          <span class="badge badge-info">
-            <span class="badge-item badge-item-expand p">テキスト</span>
-          </span>
-          <span class="badge badge-info">
-            <span class="badge-item badge-item-expand p">テキスト</span>
-          </span>
-          <span class="badge badge-info">
-            <span class="badge-item badge-item-expand p">テキスト</span>
-          </span>
+        <div class="bg-light p-3 mb-4">
+          <div class="h6">
+            <lfr-editable id="solution-overview__badge-heading" type="text">
+              ダミーテキストダミーテキスト
+            </lfr-editable>
+          </div>
+          <div>
+            <lfr-editable id="solution-overview__badges" type="html">
+              <span class="badge badge-info">
+                <span class="badge-item badge-item-expand">ダミーテキスト</span>
+              </span>
+              <span class="badge badge-info">
+                <span class="badge-item badge-item-expand">ダミーテキスト</span>
+              </span>
+              <span class="badge badge-info">
+                <span class="badge-item badge-item-expand">ダミーテキスト</span>
+              </span>
+              <span class="badge badge-info">
+                <span class="badge-item badge-item-expand">ダミーテキスト</span>
+              </span>
+            </lfr-editable>
+          </div>
+        </div>
+        <div class="text-right">
+          <lfr-editable id="solution-overview_link" type="link">
+            <a class="btn btn-outline-primary d-block d-md-inline-block" href="#">
+              ボタンラベル
+            </a>
+          </lfr-editable>
         </div>
       </div>
     </div>
