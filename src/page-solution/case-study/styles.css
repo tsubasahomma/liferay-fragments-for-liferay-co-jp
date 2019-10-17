@@ -1,0 +1,8 @@
+.case-study {
+  color: inherit;
+}
+
+.case-study img {
+  max-width: 156px;
+  max-height: 80px;
+}
