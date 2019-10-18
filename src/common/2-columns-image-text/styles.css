@@ -1,0 +1,17 @@
+.two-columns-image-text {
+  color: inherit;
+}
+
+.two-columns-image-text .icon-frame {
+  height: 128px;
+}
+
+.two-columns-image-text .icon-wrapper {
+  border-radius: 100%;
+  width: 88px;
+  height: 88px;
+}
+
+.two-columns-image-text .icon-wrapper .lexicon-icon {
+  font-size: 2.5rem;
+}

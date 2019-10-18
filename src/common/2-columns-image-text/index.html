@@ -1,0 +1,31 @@
+[#assign clay_icons_svg = themeDisplay.getPathThemeImages() + '/clay/icons.svg']
+<div class="two-columns-image-text bg-light">
+  <div class="container py-5">
+    <div class="row flex-column-reverse flex-md-row justify-content-center">
+      <div class="col text-center text-md-left">
+        <h1 class="mb-3">
+          <lfr-editable id="two-columns-image-text__heading" type="text">
+            見出し１
+          </lfr-editable>
+        </h1>
+        <div class="mb-4 text-body">
+          <lfr-editable id="two-columns-image-text__body" type="text">
+            ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト
+          </lfr-editable>
+        </div>
+        <lfr-editable id="two-columns-image-text__btn" type="link">
+          <a class="btn btn-outline-primary btn-lg d-block d-md-inline-block" href="#">ボタンラベル</a>
+        </lfr-editable>
+      </div>
+      <div class="col icon-frame bg-white shadow-sm text-center mb-4 mb-md-0">
+        <div class="row align-items-center">
+          <div class="icon-wrapper bg-secondary align-items-center mx-auto d-flex justify-content-center">
+            <svg class="lexicon-icon text-white">
+              <use href="${clay_icons_svg}#${configuration.clayIcon}" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
