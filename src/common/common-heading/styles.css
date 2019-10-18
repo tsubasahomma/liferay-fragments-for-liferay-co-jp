@@ -1,0 +1,4 @@
+.common-heading {
+  border-bottom: 5px solid var(--info);
+  color: inherit;
+}
