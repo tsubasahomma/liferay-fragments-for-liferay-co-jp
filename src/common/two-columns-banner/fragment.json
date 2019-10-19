@@ -3,6 +3,6 @@
   "configurationPath": "configuration.json",
   "htmlPath": "index.html",
   "jsPath": "main.js",
-  "name": "2 Columns (Image+Text)",
+  "name": "2 Columns Banner",
   "type": "section"
 }

@@ -1,0 +1,88 @@
+[#assign clay_icons_svg = themeDisplay.getPathThemeImages() + '/clay/icons.svg']
+
+[#if configuration.reverseColumns == false]
+[#assign directionCssClass = "flex-lg-row"]
+[#else]
+[#assign directionCssClass = "flex-lg-row-reverse"]
+[/#if]
+
+[#if configuration.outlineBtn == true]
+[#assign cssClassOutlineBtn = "-outline"]
+[/#if]
+
+[#if configuration.btnSize == "small"]
+[#assign btnSize = "btn-sm"]
+[#elseif configuration.btnSize == "default"]
+[#assign btnSize = ""]
+[#elseif configuration.btnSize == "large"]
+[#assign btnSize = "btn-lg"]
+[/#if]
+
+[#if configuration.btnType == "primary"]
+[#assign btnType = "-primary"]
+[#elseif configuration.btnType == "secondary"]
+[#assign btnType = "-secondary"]
+[#elseif configuration.btnType == "link"]
+[#assign btnType = "-link"]
+[/#if]
+
+[#if configuration.displayType == "button"]
+[#assign notReverse = ""]
+[/#if]
+<div class="two-columns-image-text bg-light py-5">
+  <div class="container">
+    <div
+      class="row flex-column${notReverse!'-reverse'} ${directionCssClass} justify-content-around align-items-center text-center text-lg-left">
+      <div class="col col-xl-5">
+        [#if configuration.showHeading == true]
+        <h1>
+          <lfr-editable id="two-columns-image-text__heading" type="text">
+            Heading 1
+          </lfr-editable>
+        </h1>
+        [/#if]
+        <div>
+          <lfr-editable id="two-columns-image-text__body" type="rich-text">
+            <p>
+              Dummy Text Dummy Text Dummy Text Dummy Text Dummy Text Dummy Text Dummy Text Dummy Text Dummy Text Dummy
+              Text
+            </p>
+          </lfr-editable>
+        </div>
+        [#if configuration.showBtn == true]
+        <lfr-editable id="two-columns-image-text__link" type="link">
+          <a href="#" class="btn btn${cssClassOutlineBtn!''}${btnType} ${btnSize} d-block d-md-inline-block">Button
+            Label</a>
+        </lfr-editable>
+        [/#if]
+      </div>
+      [#if configuration.displayType == "icon"]
+      <div class="col col-xl-5 bg-white shadow-sm icon-frame mb-4 mb-lg-0">
+        <div class="d-table w-100 h-100">
+          <div class="d-table-cell align-middle text-center">
+            <div class="icon-wrapper d-inline-block bg-secondary">
+              <svg class="lexicon-icon text-white">
+                <use href="${clay_icons_svg}#${configuration.clayIcon}" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      [#elseif configuration.displayType == "image"]
+      <div class="col col-xl-5 mb-4 mb-lg-0">
+        <lfr-editable id="two-columns-image-text__figure" type="image">
+          <img class="shadow-sm w-100" src="https://via.placeholder.com/590x590/?text=Image">
+        </lfr-editable>
+      </div>
+      [#elseif configuration.displayType == "button"]
+      <div class="col col-xl-5 mb-4 mb-lg-0">
+        <lfr-editable id="two-columns-image-text__button-lg-p-5" type="link">
+          <a class="btn btn-lg btn-block btn${cssClassOutlineBtn!''}${btnType} p-5" href="#">
+            Buttosn Label
+          </a>
+        </lfr-editable>
+      </div>
+      [/#if]
+    </div>
+  </div>
+</div>

@@ -2,16 +2,25 @@
   color: inherit;
 }
 
+.two-columns-image-text img {
+  max-width: 590px;
+}
+
 .two-columns-image-text .icon-frame {
-  height: 128px;
+  padding: 2rem 0;
 }
 
 .two-columns-image-text .icon-wrapper {
   border-radius: 100%;
-  width: 88px;
-  height: 88px;
+  padding: 2rem;
 }
 
 .two-columns-image-text .icon-wrapper .lexicon-icon {
   font-size: 2.5rem;
+}
+
+@media (min-width: 992px) {
+  .two-columns-image-text .icon-frame {
+    height: 368px;
+  }
 }
