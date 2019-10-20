@@ -1,0 +1,29 @@
+.h2-p-with-border-bottom {
+  color: inherit;
+}
+
+.h2-p-with-border-bottom h2>div {
+  position: relative;
+  padding-bottom: .5rem;
+}
+
+.h2-p-with-border-bottom h2>div::before,
+.h2-p-with-border-bottom h2>div::after {
+  content: '';
+  display: inline-block;
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+}
+
+.h2-p-with-border-bottom h2>div::before {
+  width: 15%;
+  background-color: var(--info);
+  left: 0;
+}
+
+.h2-p-with-border-bottom h2>div::after {
+  width: 85%;
+  background-color: var(--secondary);
+  right: 0;
+}
