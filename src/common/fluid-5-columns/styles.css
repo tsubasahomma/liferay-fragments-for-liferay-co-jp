@@ -1,0 +1,12 @@
+.fluid-5-columns {
+  color: inherit;
+}
+
+.fluid-5-columns h2 {
+  min-height: 2.5em;
+}
+
+.fluid-5-columns h2>div {
+  display: inline-block;
+  vertical-align: sub;
+}
