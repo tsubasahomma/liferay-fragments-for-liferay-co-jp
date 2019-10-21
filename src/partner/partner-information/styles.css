@@ -1,0 +1,14 @@
+.partner-information {
+  color: inherit;
+}
+
+.partner-information .figure-frame {
+  padding: 5rem 0;
+}
+
+@media (min-width: 768px) {
+  .partner-information .figure-frame {
+    border: none !important;
+    padding: 0;
+  }
+}
