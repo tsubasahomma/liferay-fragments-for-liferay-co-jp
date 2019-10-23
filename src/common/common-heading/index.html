@@ -1,16 +1,18 @@
 <div class="common-heading container-fluid bg-light text-center py-5">
   <div class="row py-md-2 py-lg-4">
     <div class="col">
-      <h1 class="mb-3">
+      <h1>
         <lfr-editable id="common-heading__heading" type="text">
           タイトルテキスト
         </lfr-editable>
       </h1>
-      <div class="text-body">
+      [#if configuration.showOnlyHeading == false]
+      <div class="text-body mt-3">
         <lfr-editable id="common-heading__summary" type="html">
           <p class="mb-0">ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</p>
         </lfr-editable>
       </div>
+      [/#if]
     </div>
   </div>
 </div>
